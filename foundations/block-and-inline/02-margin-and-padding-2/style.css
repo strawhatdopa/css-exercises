@@ -14,27 +14,30 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
-  padding: 20px;
-}
-
-
-
-button {
-  background: white;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .button-container {
   text-align: center;
-  padding: 5px;
-  margin: 10px;
-  margin-left: 0px;
-  width: 490px;
+  margin: 10px auto;
+  margin-bottom: -3px;
 }
 
-.button {
-  padding: 20px;
+button {
+  display: block;
+  padding: 8px 24px;
+  margin: 0 auto;
+  background: white;
 }
+
+
 
 .title {
   font-size: 20px;
+}
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
