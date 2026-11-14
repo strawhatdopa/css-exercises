@@ -45,21 +45,37 @@ body {
 
 .main-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: left;
   flex: 1;
 }
 
 .sidebar {
-  align-self: stretch;
+  display: flex;
   flex-shrink: 0;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin: 20px;
+}
+
 .card {
-  height: 200px;
-  width: 200px;
-  margin-top: 10px;
-  margin-right: 20px;
+  height: 280px;
+  width: 350px;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
 }
 
 .footer {
@@ -67,4 +83,12 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+a, ul {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 25px;
 }
