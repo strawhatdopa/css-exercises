@@ -50,7 +50,6 @@ body {
 }
 
 .sidebar {
-  display: flex;
   flex-shrink: 0;
 }
 
@@ -58,7 +57,8 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  gap: 10px;
+  gap: 15px;
+  margin: 0;
 }
 
 .cards {
